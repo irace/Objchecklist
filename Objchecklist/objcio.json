@@ -1,0 +1,680 @@
+[
+  {
+    "title": "Games",
+    "number": "#18",
+    "permalink": "/issue-18",
+    "articles": [
+      {
+        "permalink": "/issue-18/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-18/designing-elegant-mobile-games.html",
+        "title": "Designing Elegant Mobile Games",
+        "author": "Mike Lazer-Walker"
+      },
+      {
+        "permalink": "/issue-18/metal.html",
+        "title": "Metal",
+        "author": "Max Christ and Warren Moore"
+      },
+      {
+        "permalink": "/issue-18/scenekit.html",
+        "title": "Scene Kit",
+        "author": "David Rönnqvist"
+      },
+      {
+        "permalink": "/issue-18/multipeer-connectivity-for-games.html",
+        "title": "Multipeer Connectivity in Games",
+        "author": "JP Simard"
+      },
+      {
+        "permalink": "/issue-18/sound-design.html",
+        "title": "Virtual Soundscapes: The Art of Sound Design",
+        "author": "Janie Clayton"
+      }
+    ]
+  },
+  {
+    "title": "Security",
+    "number": "#17",
+    "permalink": "/issue-17",
+    "articles": [
+      {
+        "permalink": "/issue-17/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-17/why-security.html",
+        "title": "Why Security Still Matters Today",
+        "author": "Graham Lee"
+      },
+      {
+        "permalink": "/issue-17/inside-code-signing.html",
+        "title": "Inside Code Signing",
+        "author": "Thomas 'toto' Kollbach"
+      },
+      {
+        "permalink": "/issue-17/receipt-validation.html",
+        "title": "Receipt Validation",
+        "author": "Laurent Etiemble"
+      }
+    ]
+  },
+  {
+    "title": "Swift",
+    "number": "#16",
+    "permalink": "/issue-16",
+    "articles": [
+      {
+        "permalink": "/issue-16/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-16/power-of-swift.html",
+        "title": "The Power of Swift",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-16/swift-classes-vs-structs.html",
+        "title": "A Warm Welcome to Structs and Value Types",
+        "author": "Andy Matuschak"
+      },
+      {
+        "permalink": "/issue-16/swift-functions.html",
+        "title": "The Many Faces of Swift Functions",
+        "author": "Natasha Murashev"
+      },
+      {
+        "permalink": "/issue-16/functional-swift-apis.html",
+        "title": "Functional APIs with Swift",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-16/rapid-prototyping-in-swift-playgrounds.html",
+        "title": "Rapid Prototyping in Swift Playgrounds",
+        "author": "Brad Larson"
+      }
+    ]
+  },
+  {
+    "title": "Testing",
+    "number": "#15",
+    "permalink": "/issue-15",
+    "articles": [
+      {
+        "permalink": "/issue-15/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-15/behavior-driven-development.html",
+        "title": "Behavior-Driven Development",
+        "author": "Pawel Dudek"
+      },
+      {
+        "permalink": "/issue-15/xctest.html",
+        "title": "Real-World Testing with XCTest",
+        "author": "Arne Schroppe and Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-15/dependency-injection.html",
+        "title": "Dependency Injection",
+        "author": "Jon Reid"
+      },
+      {
+        "permalink": "/issue-15/bad-testing-practices.html",
+        "title": "Bad Testing Practices",
+        "author": "Luis Solano"
+      },
+      {
+        "permalink": "/issue-15/mocking-stubbing.html",
+        "title": "Test Doubles: Mocks, Stubs, and More",
+        "author": "Mike Lazer-Walker"
+      },
+      {
+        "permalink": "/issue-15/user-interface-testing.html",
+        "title": "User Interface Testing",
+        "author": "Klaas Pieter Annema"
+      },
+      {
+        "permalink": "/issue-15/snapshot-testing.html",
+        "title": "Snapshot Testing",
+        "author": "Orta Therox"
+      }
+    ]
+  },
+  {
+    "title": "Back to the Mac",
+    "number": "#14",
+    "permalink": "/issue-14",
+    "articles": [
+      {
+        "permalink": "/issue-14/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-14/scripting-data.html",
+        "title": "Making Your Mac App’s Data Scriptable",
+        "author": "Brent Simmons"
+      },
+      {
+        "permalink": "/issue-14/sandbox-scripting.html",
+        "title": "Scripting from a Sandbox",
+        "author": "Craig Hockenberry"
+      },
+      {
+        "permalink": "/issue-14/plugins.html",
+        "title": "Plugins",
+        "author": "Gus Mueller"
+      },
+      {
+        "permalink": "/issue-14/xpc.html",
+        "title": "XPC",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-14/appkit-for-uikit-developers.html",
+        "title": "AppKit for UIKit Developers",
+        "author": "Florian Kugler"
+      }
+    ]
+  },
+  {
+    "title": "Architecture",
+    "number": "#13",
+    "permalink": "/issue-13",
+    "articles": [
+      {
+        "permalink": "/issue-13/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-13/mvvm.html",
+        "title": "Introduction to MVVM",
+        "author": "Ash Furrow"
+      },
+      {
+        "permalink": "/issue-13/singletons.html",
+        "title": "Avoiding Singleton Abuse",
+        "author": "Stephen Poletto"
+      },
+      {
+        "permalink": "/issue-13/behaviors.html",
+        "title": "Behaviors in iOS Apps",
+        "author": "Krzysztof Zabłocki"
+      },
+      {
+        "permalink": "/issue-13/subclassing.html",
+        "title": "Subclassing",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-13/viper.html",
+        "title": "Architecting iOS Apps with VIPER",
+        "author": "Jeff Gilbert and Conrad Stoll"
+      }
+    ]
+  },
+  {
+    "title": "Animations",
+    "number": "#12",
+    "permalink": "/issue-12",
+    "articles": [
+      {
+        "permalink": "/issue-12/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-12/animations-explained.html",
+        "title": "Animations Explained",
+        "author": "Robert Böhnke"
+      },
+      {
+        "permalink": "/issue-12/animating-custom-layer-properties.html",
+        "title": "Animating Custom Layer Properties",
+        "author": "Nick Lockwood"
+      },
+      {
+        "permalink": "/issue-12/custom-container-view-controller-transitions.html",
+        "title": "Custom Container View Controller Transitions",
+        "author": "Joachim Bondo"
+      },
+      {
+        "permalink": "/issue-12/view-layer-synergy.html",
+        "title": "View-Layer Synergy",
+        "author": "David Rönnqvist"
+      },
+      {
+        "permalink": "/issue-12/collectionview-animations.html",
+        "title": "Animating Collection Views",
+        "author": "Engin Kurutepe"
+      },
+      {
+        "permalink": "/issue-12/interactive-animations.html",
+        "title": "Interactive Animations",
+        "author": "Chris Eidhof and Florian Kugler"
+      }
+    ]
+  },
+  {
+    "title": "Android",
+    "number": "#11",
+    "permalink": "/issue-11",
+    "articles": [
+      {
+        "permalink": "/issue-11/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-11/android_101_for_ios_developers.html",
+        "title": "Android 101 for iOS Developers",
+        "author": "Stephen Barnes"
+      },
+      {
+        "permalink": "/issue-11/android-intents.html",
+        "title": "Android Intents",
+        "author": "Martin Marconcini"
+      },
+      {
+        "permalink": "/issue-11/responsive-android-applications.html",
+        "title": "Responsive Android Applications",
+        "author": "Chris Stewart"
+      },
+      {
+        "permalink": "/issue-11/android-notifications.html",
+        "title": "Android’s Notification Center",
+        "author": "Kevin Grant"
+      },
+      {
+        "permalink": "/issue-11/sqlite-database-support-in-android.html",
+        "title": "SQLite Database Support in Android",
+        "author": "James Kelso"
+      },
+      {
+        "permalink": "/issue-11/dependency-injection-in-java.html",
+        "title": "Dependency Injection, Annotations, and why Java is Better Than you Think it is",
+        "author": "Bill Phillips"
+      }
+    ]
+  },
+  {
+    "title": "Syncing Data",
+    "number": "#10",
+    "permalink": "/issue-10",
+    "articles": [
+      {
+        "permalink": "/issue-10/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-10/data-synchronization.html",
+        "title": "Data Synchronization",
+        "author": "Drew McCormack"
+      },
+      {
+        "permalink": "/issue-10/icloud-core-data.html",
+        "title": "iCloud and Core Data",
+        "author": "Matthew Bischoff & Brian Capps"
+      },
+      {
+        "permalink": "/issue-10/icloud-document-store.html",
+        "title": "Mastering the iCloud Document Store",
+        "author": "Friedrich Gräter & Max Seelemann"
+      },
+      {
+        "permalink": "/issue-10/sync-case-study.html",
+        "title": "A Sync Case Study",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-10/networked-core-data-application.html",
+        "title": "A Networked Core Data Application",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-10/ip-tcp-http.html",
+        "title": "IP, TCP, and HTTP",
+        "author": "Daniel Eggert"
+      }
+    ]
+  },
+  {
+    "title": "Strings",
+    "number": "#9",
+    "permalink": "/issue-9",
+    "articles": [
+      {
+        "permalink": "/issue-9/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-9/unicode.html",
+        "title": "NSString and Unicode",
+        "author": "Ole Begemann"
+      },
+      {
+        "permalink": "/issue-9/working-with-strings.html",
+        "title": "Working with Strings",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-9/string-localization.html",
+        "title": "String Localization",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-9/string-parsing.html",
+        "title": "String Parsing",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-9/string-rendering.html",
+        "title": "String Rendering",
+        "author": "Chris, Daniel, and Florian"
+      }
+    ]
+  },
+  {
+    "title": "Quadcopter Project",
+    "number": "#8",
+    "permalink": "/issue-8",
+    "articles": [
+      {
+        "permalink": "/issue-8/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-8/the-quadcopter-project.html",
+        "title": "The Project",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-8/communicating-with-the-quadcopter.html",
+        "title": "Communicating with the Quadcopter",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-8/the-quadcopter-navigator-app.html",
+        "title": "The Navigator App",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-8/the-quadcopter-client-app.html",
+        "title": "The Client App",
+        "author": "Florian Kugler"
+      }
+    ]
+  },
+  {
+    "title": "Foundation",
+    "number": "#7",
+    "permalink": "/issue-7",
+    "articles": [
+      {
+        "permalink": "/issue-7/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-7/collections.html",
+        "title": "The Foundation Collection Classes",
+        "author": "Peter Steinberger"
+      },
+      {
+        "permalink": "/issue-7/value-objects.html",
+        "title": "Value Objects",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-7/key-value-coding-and-observing.html",
+        "title": "Key-Value Coding and Observing",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-7/communication-patterns.html",
+        "title": "Communication Patterns",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-7/nsformatter.html",
+        "title": "Custom Formatters",
+        "author": "Klaas Pieter Annema"
+      },
+      {
+        "permalink": "/issue-7/linguistic-tagging.html",
+        "title": "Linguistic Tagging",
+        "author": "Oliver Mason"
+      }
+    ]
+  },
+  {
+    "title": "Build Tools",
+    "number": "#6",
+    "permalink": "/issue-6",
+    "articles": [
+      {
+        "permalink": "/issue-6/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-6/build-process.html",
+        "title": "The Build Process",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-6/compiler.html",
+        "title": "The Compiler",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-6/mach-o-executables.html",
+        "title": "Mach-O Executables",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-6/cocoapods-under-the-hood.html",
+        "title": "CocoaPods Under The Hood",
+        "author": "Michele Titolo"
+      },
+      {
+        "permalink": "/issue-6/travis-ci.html",
+        "title": "Travis CI for iOS",
+        "author": "Mattes Groeger"
+      }
+    ]
+  },
+  {
+    "title": "iOS 7",
+    "number": "#5",
+    "permalink": "/issue-5",
+    "articles": [
+      {
+        "permalink": "/issue-5/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-5/getting-to-know-textkit.html",
+        "title": "Getting to Know TextKit",
+        "author": "Max Seelemann"
+      },
+      {
+        "permalink": "/issue-5/collection-views-and-uidynamics.html",
+        "title": "UICollectionView + UIKit Dynamics",
+        "author": "Ash Furrow"
+      },
+      {
+        "permalink": "/issue-5/view-controller-transitions.html",
+        "title": "View Controller Transitions",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-5/from-nsurlconnection-to-nsurlsession.html",
+        "title": "From NSURLConnection to NSURLSession",
+        "author": "Mattt Thompson"
+      },
+      {
+        "permalink": "/issue-5/multitasking.html",
+        "title": "Multitasking in iOS 7",
+        "author": "David Caunt"
+      },
+      {
+        "permalink": "/issue-5/iOS7-hidden-gems-and-workarounds.html",
+        "title": "iOS 7: Hidden Gems and Workarounds",
+        "author": "Peter Steinberger"
+      },
+      {
+        "permalink": "/issue-5/redesigning-for-ios-7.html",
+        "title": "Re-Designing an App for iOS 7",
+        "author": "Holger Riegel & Tobias Kreß"
+      }
+    ]
+  },
+  {
+    "title": "Core Data",
+    "number": "#4",
+    "permalink": "/issue-4",
+    "articles": [
+      {
+        "permalink": "/issue-4/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-4/core-data-overview.html",
+        "title": "Core Data Overview",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-4/full-core-data-application.html",
+        "title": "A Complete Core Data Application",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-4/SQLite-instead-of-core-data.html",
+        "title": "On Using SQLite and FMDB Instead of Core Data",
+        "author": "Brent Simmons"
+      },
+      {
+        "permalink": "/issue-4/core-data-models-and-model-objects.html",
+        "title": "Data Models and Model Objects",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-4/importing-large-data-sets-into-core-data.html",
+        "title": "Importing Large Data Sets",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-4/core-data-fetch-requests.html",
+        "title": "Fetch Requests",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-4/core-data-migration.html",
+        "title": "Custom Core Data Migrations",
+        "author": "Martin Hwasser"
+      }
+    ]
+  },
+  {
+    "title": "Views",
+    "number": "#3",
+    "permalink": "/issue-3",
+    "articles": [
+      {
+        "permalink": "/issue-3/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-3/moving-pixels-onto-the-screen.html",
+        "title": "Getting Pixels onto the Screen",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-3/scroll-view.html",
+        "title": "Understanding Scroll Views",
+        "author": "Joe Conway"
+      },
+      {
+        "permalink": "/issue-3/collection-view-layouts.html",
+        "title": "Custom Collection View Layouts",
+        "author": "Ole Begemann"
+      },
+      {
+        "permalink": "/issue-3/custom-controls.html",
+        "title": "Custom Controls",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-3/advanced-auto-layout-toolbox.html",
+        "title": "Advanced Auto Layout Toolbox",
+        "author": "Florian Kugler"
+      }
+    ]
+  },
+  {
+    "title": "Concurrent Programming",
+    "number": "#2",
+    "permalink": "/issue-2",
+    "articles": [
+      {
+        "permalink": "/issue-2/editorial.html",
+        "title": "Editorial"
+      },
+      {
+        "permalink": "/issue-2/concurrency-apis-and-pitfalls.html",
+        "title": "Concurrent Programming: APIs and Challenges",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-2/common-background-practices.html",
+        "title": "Common Background Practices",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-2/low-level-concurrency-apis.html",
+        "title": "Low-Level Concurrency APIs",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-2/thread-safe-class-design.html",
+        "title": "Thread-Safe Class Design",
+        "author": "Peter Steinberger"
+      },
+      {
+        "permalink": "/issue-2/async-testing.html",
+        "title": "Testing Concurrent Applications",
+        "author": "Tobias Kräntzer"
+      }
+    ]
+  },
+  {
+    "title": "Lighter View Controllers",
+    "number": "#1",
+    "permalink": "/issue-1",
+    "articles": [
+      {
+        "permalink": "/issue-1/introduction.html",
+        "title": "Introduction"
+      },
+      {
+        "permalink": "/issue-1/lighter-view-controllers.html",
+        "title": "Lighter View Controllers",
+        "author": "Chris Eidhof"
+      },
+      {
+        "permalink": "/issue-1/table-views.html",
+        "title": "Clean table view code",
+        "author": "Florian Kugler"
+      },
+      {
+        "permalink": "/issue-1/testing-view-controllers.html",
+        "title": "Testing View Controllers",
+        "author": "Daniel Eggert"
+      },
+      {
+        "permalink": "/issue-1/containment-view-controller.html",
+        "title": "View Controller Containment",
+        "author": "Ricki Gregersen"
+      }
+    ]
+  }
+]
