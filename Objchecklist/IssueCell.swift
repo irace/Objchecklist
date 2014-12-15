@@ -12,7 +12,7 @@ class IssueCell : UITableViewCell {
     }
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: .Subtitle, reuseIdentifier: "Issue")
+        super.init(style: .Value1, reuseIdentifier: "Issue")
     }
     
     required init(coder aDecoder: NSCoder) {

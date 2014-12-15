@@ -13,15 +13,9 @@ class IssueViewController: UITableViewController {
     }
     
     required init(coder aDecoder: NSCoder) {
+        assertionFailure("Use `init(issue: Issue)` instead")
+        
         super.init(coder: aDecoder)
-    }
-
-    override init(style: UITableViewStyle) {
-        super.init(style: style);
-    }
-
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
     // MARK: - UIViewController
@@ -59,9 +53,13 @@ class IssueViewController: UITableViewController {
     // MARK: - UITableViewDelegate
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        issue.articles[indexPath.row].toggleReadState()
+        let article = articleAtIndexPath(indexPath)
+        article.toggleReadState()
+
+        let cell = tableView.cellForRowAtIndexPath(indexPath) as ArticleCell
+        cell.read = article.read
         
-        tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
     override func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {

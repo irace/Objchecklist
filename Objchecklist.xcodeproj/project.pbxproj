@@ -137,8 +137,8 @@
 		9369C2231A1801F4007A7618 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9369C21F1A180134007A7618 /* Issue.swift */,
 				9369C2211A1801D3007A7618 /* Article.swift */,
+				9369C21F1A180134007A7618 /* Issue.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 		93DDD9371A3CE017004919BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				93DDD9351A3CD6F5004919BE /* IssueCell.swift */,
 				93DDD9381A3CE025004919BE /* ArticleCell.swift */,
+				93DDD9351A3CD6F5004919BE /* IssueCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";

@@ -1,4 +1,4 @@
- import UIKit
+import UIKit
 
 class MasterViewController: UITableViewController {
     var issues: Array<Issue> = []
@@ -27,21 +27,27 @@ class MasterViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        let visibleIndexPaths = tableView.indexPathsForVisibleRows() as Array<NSIndexPath>?
-        
-        if let indexPaths = visibleIndexPaths {
-            for indexPath in indexPaths {
-                updateCellAtIndexPathForReadState(indexPath)
-            }
-        }
+        // Would be cool to drive this off of bindings instead
+        updateVisibleCellReadStates()
     }
     
     // MARK: - Private
 
-    func updateCellAtIndexPathForReadState(indexPath: NSIndexPath) {
-        let cell = tableView.cellForRowAtIndexPath(indexPath) as IssueCell
+    func updateVisibleCellReadStates() {
+        if let visibleIndexPaths = tableView.indexPathsForVisibleRows() as Array<NSIndexPath>? {
+            for indexPath in visibleIndexPaths {
+                if let cell = tableView.cellForRowAtIndexPath(indexPath) as IssueCell? {
+                    updateCellForReadState(cell, indexPath: indexPath)
+                }
+            }
+        }
+    }
+    
+    func updateCellForReadState(cell: IssueCell, indexPath: NSIndexPath) {
+        let issue = issues[indexPath.row]
         
-        cell.read = issues[indexPath.row].read
+        cell.read = issue.read
+        cell.detailTextLabel?.text = "\(issue.readCount)/\(issue.articles.count)"
     }
     
     // MARK: - UITableViewDataSource
@@ -55,10 +61,19 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let issue = issues[indexPath.row]
+        
         let cell = tableView.dequeueReusableCellWithIdentifier(IssueCell.reuseIdentifier, forIndexPath: indexPath) as UITableViewCell
-        cell.textLabel?.text = issues[indexPath.row].title
+        cell.textLabel?.text = "\(issue.number): \(issue.title)"
         cell.accessoryType = .DisclosureIndicator
+        
         return cell
+    }
+    
+    // MARK: - UITableViewDelegate
+    
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        updateCellForReadState(cell as IssueCell, indexPath: indexPath)
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
