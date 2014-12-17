@@ -20,7 +20,7 @@ class Article {
         read = !read
     }
     
-    class func fromDictionary(dictionary: Dictionary<String, AnyObject>) -> Article {
+    class func fromDictionary(dictionary: [String: AnyObject]) -> Article {
         let JSONTitleKey = "title"
         let JSONAuthorKey = "author"
         let JSONPermalinkKey = "permalink"

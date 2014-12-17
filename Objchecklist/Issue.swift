@@ -5,9 +5,9 @@ class Issue {
     let title: NSString
     let number: NSString
     let permalink: NSURL?
-    let articles: Array<Article>
+    let articles: [Article]
     
-    init(title: NSString, number: NSString, permalink: NSURL?, articles: Array<Article>) {
+    init(title: NSString, number: NSString, permalink: NSURL?, articles: [Article]) {
         self.title = title
         self.number = number
         self.permalink = permalink
@@ -19,18 +19,22 @@ class Issue {
     }
     
     var readCount: Int {
-        return articles.reduce(0) {
-            $0 + ($1.read ? 1 : 0)
-        }
+        let readArticles = articles.filter({(article: Article) -> Bool in
+            return article.read
+        });
+        
+        return articles.reduce(0, {(sum: Int, article: Article) -> Int in
+            sum + (article.read ? 1 : 0)
+        })
     }
     
-    class func fromDictionary(dictionary: Dictionary<String, AnyObject>) -> Issue {
+    class func fromDictionary(dictionary: [String: AnyObject]) -> Issue {
         let JSONTitleKey = "title"
         let JSONNumberKey = "number"
         let JSONPermalinkKey = "permalink"
         let JSONArticlesKey = "articles"
         
-        let articleDictionaries = dictionary[JSONArticlesKey] as Array<Dictionary<String, AnyObject>>
+        let articleDictionaries = dictionary[JSONArticlesKey] as [[String: AnyObject]]
         
         return Issue(
             title: dictionary[JSONTitleKey] as NSString,

@@ -8,24 +8,27 @@
 
 import Foundation
 
-class DataService: NSObject {
-    class func latestData() -> Array<Issue> {
+class DataService {
+    class func latestIssues() -> [Issue] {
         if let URL = NSBundle.mainBundle().URLForResource("objcio", withExtension: "json") {
             if let data = NSData(contentsOfURL: URL) {
-                var error: NSError?
-                
-                let results = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers,
-                    error: &error) as Array<Dictionary<String, AnyObject>>
-                
-                if let parseError = error {
-                    println("Error parsing JSON: \(parseError)")
-                }
-                else {
-                    return results.map(Issue.fromDictionary)
-                }
+                return objectsFromData(data, mapper: Issue.fromDictionary)
             }
         }
         
         return []
+    }
+    
+    class func objectsFromData<T>(data: NSData, mapper: ([String: AnyObject] -> T)) -> [T] {
+        var error: NSError?
+        
+        let results = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers,
+            error: &error) as [[String: AnyObject]]
+        
+        if let parseError = error {
+            println("Error parsing JSON: \(parseError)")
+        }
+        
+        return results.map(mapper)
     }
 }

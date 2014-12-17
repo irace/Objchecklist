@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4846A01BE44CD11DB406BB96 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FE1E17AF100D70E07CC128 /* libPods.a */; };
+		93526FA21A3F3B6000AF789B /* IssueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93526FA11A3F3B6000AF789B /* IssueService.swift */; };
 		93655F7E1A17FA48004FD9CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93655F7D1A17FA48004FD9CE /* AppDelegate.swift */; };
 		93655F801A17FA48004FD9CE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93655F7F1A17FA48004FD9CE /* MasterViewController.swift */; };
 		93655F821A17FA48004FD9CE /* IssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93655F811A17FA48004FD9CE /* IssueViewController.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		5E384A04CA4782EB30CABEC7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		93526FA11A3F3B6000AF789B /* IssueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueService.swift; sourceTree = "<group>"; };
 		93655F781A17FA48004FD9CE /* Objchecklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Objchecklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93655F7C1A17FA48004FD9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93655F7D1A17FA48004FD9CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				93655F881A17FA48004FD9CE /* LaunchScreen.xib */,
 				93655F861A17FA48004FD9CE /* Images.xcassets */,
 				93655F7B1A17FA48004FD9CE /* Supporting Files */,
+				93526FA11A3F3B6000AF789B /* IssueService.swift */,
 			);
 			path = Objchecklist;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				93655F821A17FA48004FD9CE /* IssueViewController.swift in Sources */,
 				9369C2221A1801D3007A7618 /* Article.swift in Sources */,
 				93655F801A17FA48004FD9CE /* MasterViewController.swift in Sources */,
+				93526FA21A3F3B6000AF789B /* IssueService.swift in Sources */,
 				93655F7E1A17FA48004FD9CE /* AppDelegate.swift in Sources */,
 				93655FA21A17FC9F004FD9CE /* DataService.swift in Sources */,
 				93DDD9361A3CD6F5004919BE /* IssueCell.swift in Sources */,

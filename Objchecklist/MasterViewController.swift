@@ -1,7 +1,7 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
-    var issues: Array<Issue> = []
+    var issues: [Issue] = []
 
     // MARK: - UIViewController
     
@@ -19,7 +19,7 @@ class MasterViewController: UITableViewController {
         
         title = "objc.io"
         
-        issues = DataService.latestData();
+        issues = DataService.latestIssues()
         
         tableView.registerClass(IssueCell.self, forCellReuseIdentifier: IssueCell.reuseIdentifier)
     }
@@ -34,7 +34,7 @@ class MasterViewController: UITableViewController {
     // MARK: - Private
 
     func updateVisibleCellReadStates() {
-        if let visibleIndexPaths = tableView.indexPathsForVisibleRows() as Array<NSIndexPath>? {
+        if let visibleIndexPaths = tableView.indexPathsForVisibleRows() as [NSIndexPath]? {
             for indexPath in visibleIndexPaths {
                 if let cell = tableView.cellForRowAtIndexPath(indexPath) as IssueCell? {
                     updateCellForReadState(cell, indexPath: indexPath)
